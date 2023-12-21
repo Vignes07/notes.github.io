@@ -1,7 +1,7 @@
 import "./App.css";
 import { useState, useEffect } from "react";
 
-import Notes from "./components/Notes/Notes";
+import Notes from "./Components/Notes/Notes";
 import Nav from "./components/Nav/Nav";
 
 function App() {
