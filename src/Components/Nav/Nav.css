@@ -1,0 +1,75 @@
+.navBar {
+  max-width: 7rem;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+.navBarInner {
+  width: 100%;
+  height: 90%;
+  border-right: 1px solid rgb(223, 223, 223);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+
+.addBtn {
+  border-radius: 50%;
+  font-size: 40px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.addBtn:hover {
+  box-shadow: -2px 0px 15px 0px rgba(99, 99, 99, 0.75);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  cursor: pointer;
+}
+
+.c1,
+.c2,
+.c3 {
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+}
+
+.c1 {
+  background-color: #fec971;
+}
+
+.c1:hover {
+  box-shadow: -2px 0px 15px 0px rgba(99, 99, 99, 0.75);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.c2 {
+  background-color: #fe9b71;
+}
+
+.c2:hover {
+  box-shadow: -2px 0px 15px 0px rgba(99, 99, 99, 0.75);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.c3 {
+  background-color: #b592fd;
+}
+
+.c3:hover {
+  box-shadow: -2px 0px 15px 0px rgba(99, 99, 99, 0.75);
+  transition: box-shadow 0.3s ease-in-out;
+}
