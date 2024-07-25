@@ -1,8 +1,8 @@
 import "./App.css";
 import { useState, useEffect } from "react";
 
-import Notes from "./Components/Notes/Notes";
-import Nav from "./components/Nav/Nav";
+import Notes from "./Components/Notes/Notes.jsx";
+import Nav from "./components/Nav/Nav.jsx";
 
 function App() {
   const items = JSON.parse(localStorage.getItem("notes") || "[]");
@@ -11,7 +11,7 @@ function App() {
 
   const [notes, setNotes] = useState(items);
 
-  const handleRemove = (id, index) => {
+  const handleRemove = (id) => {
     setNotes((notes) => {
       return notes.filter((note) => note.id !== id);
     });
